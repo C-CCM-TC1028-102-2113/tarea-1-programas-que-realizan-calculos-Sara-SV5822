@@ -4,7 +4,7 @@ def main():
   megas=float(input('Dame el número de megas: '))
   min=int(input('Dame el número de minutos: '))
 
-  cost= float((msj+megas+min)*0.80)
+  cost= (msj+megas+min)*0.80
 
   print('El costo mensual es: '+ str(cost))
 
