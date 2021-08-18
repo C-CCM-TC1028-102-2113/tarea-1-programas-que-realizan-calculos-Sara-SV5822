@@ -1,7 +1,7 @@
 def main():
     #escribe tu código abajo de esta línea
 
-    time=int(input('Dame los minutos: '))
+    time=float(input('Dame los minutos: '))
 
     cen= round((5.7*60/10)*time,1)
 
