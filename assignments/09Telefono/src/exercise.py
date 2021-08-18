@@ -1,13 +1,16 @@
 def main():
     #escribe tu código abajo de esta línea
+    msj= int(input('Dame el número de mensajes: '))
+    megas= float(input('Dame el número de megas: '))
+    time= int(input('Dame el número de minutos: '))
 
-    msj=int(input('Dame el número de mensajes: '))
-    megas=float(input('Dame el número de megas: '))
-    min=int(input('Dame el número de minutos: '))
+    msj=msj*0.8
+    megas=megas*0.8
+    time=time*0.8
 
-    costo=(msj+megas+min)*0.80
+    total=msj+megas+time
 
-    print('El costo mensual es: '+ str(costo))
+    print('El costo mensual es: '+ str(total))
 
     pass
 
