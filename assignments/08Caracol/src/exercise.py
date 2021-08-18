@@ -2,7 +2,7 @@ def main():
   #escribe tu código abajo de esta línea
   min=float(input('Dame los minutos: '))
 
-  cm=round(float(min*0.57*60),1)
+  cm=float(min*34.2)
 
   print('Centímetros recorridos: '+ str(cm))
 
