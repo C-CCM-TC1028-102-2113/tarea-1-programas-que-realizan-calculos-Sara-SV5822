@@ -3,7 +3,8 @@ def main():
 
     harina=float(input('Dame la harina en gramos: '))
 
-    levadura= float(((harina/1000)*50)/1)
+    kg= harina/1000
+    levadura= kg*50/1
 
     print('Necesitas estos gramos de levadura: '+ str(levadura))
 
@@ -11,5 +12,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-
 
