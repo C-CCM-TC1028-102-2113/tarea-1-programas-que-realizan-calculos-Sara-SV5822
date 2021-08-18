@@ -3,9 +3,9 @@ def main():
 
     time= float(input('Dame los minutos: '))
 
-    cen= (5.7*60/10)*time
+    cen= float((5.7*60/10)*time)
 
-    print('Centímetros recorridos: '+ str(round(cen,1)))
+    print('Centímetros recorridos: '+ str(round(float(cen),1)))
 
     pass
 
