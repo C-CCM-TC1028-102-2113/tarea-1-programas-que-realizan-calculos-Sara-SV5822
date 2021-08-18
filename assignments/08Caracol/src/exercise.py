@@ -3,7 +3,7 @@ def main():
 
     time=int(input('Dame los minutos: '))
 
-    cen= (5.7*60/10)*time
+    cen= round((5.7*60/10)*time,1)
 
     print('Centímetros recorridos: '+ str(cen))
 
