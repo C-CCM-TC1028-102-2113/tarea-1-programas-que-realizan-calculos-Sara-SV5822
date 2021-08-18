@@ -1,13 +1,11 @@
 def main():
     #escribe tu código abajo de esta línea
 
-    time=round(float(input('Dame los minutos: ')),1)
+    time= float(input('Dame los minutos: '))
 
-    vel=5.7/10*60
+    cen= (5.7*60/10)*time
 
-    dis=round(vel*time,1)
-
-    print('Centímetros recorridos: '+ str(dis))
+    print('Centímetros recorridos: '+ str(round(cen,1)))
 
     pass
 
