@@ -1,10 +1,11 @@
 def main():
     #escribe tu código abajo de esta línea
-    min=float(input('Dame los minutos: '))
 
-    cm=((5.7*60)/100)*min
+    time=float(input('Dame los minutos: '))
 
-    print('Centímetros recorridos: '+ str(cm))
+    cen= (5.7*60/10)*time
+
+    print('Centímetros recorridos: '+ str(cen))
 
     pass
 
