@@ -8,7 +8,7 @@ def main():
     saldo_f= saldo_a-egresos+ingresos-(num*13)
     total= saldo_f*(92.5)/100
 
-    print('El saldo final de la cuenta es: '+ str(total))
+    print('El saldo final de la cuenta es: '+ str(round(total),14))
 
     pass
 
