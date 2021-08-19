@@ -1,12 +1,12 @@
 def main():
     #escribe tu código abajo de esta línea
     vel = 5.7 
-    min = float(input('Dame el tiempo en minutos: '))
+    min = float(input('Dame los minutos: '))
     
     cm = vel/10
     time = min*60
     
-    total = vel * time
+    total = cm * time
     print('Centímetros recorridos: '+ str(round(total,1)))
 
     pass
