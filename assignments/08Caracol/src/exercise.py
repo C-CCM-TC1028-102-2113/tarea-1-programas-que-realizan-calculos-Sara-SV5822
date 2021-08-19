@@ -1,6 +1,6 @@
 def main():
     #escribe tu código abajo de esta línea
-    time=float(input('Dame los minutos: '))
+    time=round(float(input('Dame los minutos: ')),1)
 
     vel=5.7
     dist=float((vel*6)*time)
