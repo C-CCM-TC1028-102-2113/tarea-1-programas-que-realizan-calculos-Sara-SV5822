@@ -11,7 +11,6 @@ def main():
     total=msj+megas+time
 
     print('El costo mensual es: '+ str(total))
-
     pass
 
 if __name__ == '__main__':
