@@ -6,7 +6,7 @@ def main():
     num=int(input('Dame el número de cheques: '))
 
     saldo_f= saldo_a-egresos+ingresos-(num*13)
-    total= saldo_f*(100-7.5)/100
+    total= saldo_f*(92.5)
 
     print('El saldo final de la cuenta es: '+ str(total))
 
