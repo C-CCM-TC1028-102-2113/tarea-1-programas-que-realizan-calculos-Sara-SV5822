@@ -1,7 +1,7 @@
 def main():
     #escribe tu código abajo de esta línea
     msj= int(input('Dame el número de mensajes: '))
-    megas= float(input('Dame el número de megas: '))
+    megas=round(float(input('Dame el número de megas: ')),1)
     time= int(input('Dame el número de minutos: '))
 
     msj=msj*0.8
