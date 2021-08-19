@@ -5,7 +5,7 @@ def main():
     vel=5.7
     dist=float((vel*6)*time)
 
-    print('Centímetros recorridos: '+ str(round(dist,1)))
+    print('Centímentros recorridos: '+ str(round(dist,1)))
 
 
 
